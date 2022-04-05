@@ -1,0 +1,26 @@
+body{
+    background-color: blueviolet;
+}
+@media all and (max-width: 480px) {
+    body{
+        background-color: brown;
+    }
+    .container{
+        border: 2px solid black;
+        position: relative;
+        height: 200px;
+        width: 200px;
+        background-color: aquamarine;
+    }
+    p{
+        position: absolute;
+        top: 10;
+        left: 5;
+    }
+}
+.container{
+    position: static;
+}
+p{
+    position: static;
+}
